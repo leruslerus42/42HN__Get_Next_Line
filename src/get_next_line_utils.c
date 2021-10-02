@@ -6,7 +6,7 @@
 /*   By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/30 09:52:15 by rrajaobe          #+#    #+#             */
-/*   Updated: 2021/10/02 12:05:01 by rrajaobe         ###   ########.fr       */
+/*   Updated: 2021/10/02 12:37:54 by rrajaobe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 /*
 **Function that returns the lenght of a string.
 */
+
 size_t	ft_strlen(const char *s)
 {
 	size_t	i;
@@ -33,6 +34,7 @@ size_t	ft_strlen(const char *s)
 /*
 **	Function that returns a copy of the original string.
 */
+
 char	*ft_strdup(const char *s1)
 {
 	size_t	i;
@@ -57,6 +59,7 @@ char	*ft_strdup(const char *s1)
 /*
 **	Function that returns a new string, that is the concatenation of the two originals strings gave as parameters.
 */
+
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	i;
@@ -89,6 +92,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 /*
 **	Function that returns a substring of the original string, starting atthe index "start" and of maximal lenght "len".
 */
+
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char			*tab;
@@ -122,6 +126,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 /*
 **	Function that check if a unique charachter is present in the string gave as input.
 */
+
 int	ft_my_strchr(const char *s, int c)
 {
 	unsigned int	i;

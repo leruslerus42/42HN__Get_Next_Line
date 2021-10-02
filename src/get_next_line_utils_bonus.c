@@ -6,7 +6,7 @@
 /*   By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/07 15:07:28 by rrajaobe          #+#    #+#             */
-/*   Updated: 2021/10/02 12:06:36 by rrajaobe         ###   ########.fr       */
+/*   Updated: 2021/10/02 12:38:14 by rrajaobe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 /*
 ** Same help functions as in the mandatory part, get_next_line_utils.c.
 */
+
 size_t	ft_strlen(const char *s)
 {
 	size_t	i;

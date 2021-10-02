@@ -6,7 +6,7 @@
 /*   By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/06 08:35:34 by rrajaobe          #+#    #+#             */
-/*   Updated: 2021/10/02 12:00:59 by rrajaobe         ###   ########.fr       */
+/*   Updated: 2021/10/02 12:37:36 by rrajaobe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@
 **		2.2)	If not, we are currently on the last line of our file.
 **			I check if we are at the End of File (line 45). If not I copy and return the last string, otherwise I return NULL.
 */
+
 static char	*rest_check(char **rest)
 {
 	char	*current_line;
@@ -63,6 +64,7 @@ static char	*rest_check(char **rest)
 **	3)	If we find a new line (line59), we will exit the loop. 
 **		Otherwise we will continue reading the line, memorizing the readed bytes in buffer and so on.
 */
+
 static char	*buffer_check(int fd, char *buf, char **rest, int b)
 {
 	char	*temp;
@@ -97,6 +99,7 @@ static char	*buffer_check(int fd, char *buf, char **rest, int b)
 **	3)	Reading the file memorized in the file descriptor and writing it in the buffer with lenght BUFFER_SIZE, 
 **		and having the variable b representing the readed bytes.
 */
+
 char	*get_next_line(int fd)
 {
 	char		*buf;

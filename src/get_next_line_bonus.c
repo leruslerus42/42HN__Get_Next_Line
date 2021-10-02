@@ -6,7 +6,7 @@
 /*   By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/07 15:07:10 by rrajaobe          #+#    #+#             */
-/*   Updated: 2021/10/02 12:25:08 by rrajaobe         ###   ########.fr       */
+/*   Updated: 2021/10/02 12:38:20 by rrajaobe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 **	that is the predefined macro limit for open files per process (handled @line 75/78). 
 **	Regarding the use of static variable, this case was already handled int he mandatory part. 
 */
+
 static char	*rest_check(char **rest)
 {
 	char	*current_line;
