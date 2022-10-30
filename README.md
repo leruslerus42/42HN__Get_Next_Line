@@ -6,7 +6,7 @@ Scope of this programm is to return a line, read from a file descriptor or NULL 
 It will be read one line at the time.
 On top of that our programm should be able to handle bot the cases reading from a file or from the standard input.
 
-## COMPILATION
+## FLAGS
 
 To compile it should be used the flag: -D BUFFER_SIZE=xx, with x, the value of the BUFFERSIZE that could be a value between 1 and 10.000.
 This project is was useful to learn a new concept in C programming: static variables.
