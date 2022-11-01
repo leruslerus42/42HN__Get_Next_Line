@@ -20,7 +20,8 @@ As all other C projects at the 42 school, the code has to written in accordance 
 
 ## RESULT
 
-<img width="1936" alt="Ergebnis" src="https://user-images.githubusercontent.com/85942176/135713148-1a0490a1-d313-4056-93ea-96183c07ee74.png">
+<img width="846" alt="Screenshot 2022-11-01 at 07 01 46" src="https://user-images.githubusercontent.com/85942176/199169070-fee6dca2-e3ad-48a4-9f20-ab2a530cfd8d.png">
+
 
 ## TESTING
 
